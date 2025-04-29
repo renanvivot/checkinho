@@ -1,0 +1,4 @@
+Flask==3.*
+requests==2.*
+schedule==1.*
+pytz==2024.*
