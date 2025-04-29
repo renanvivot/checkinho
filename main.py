@@ -52,7 +52,7 @@ def send_reminder():
     )
 
 def scheduler_loop():
-    schedule.every().day.at("13:34").do(send_reminder)
+    schedule.every().day.at("14:00").do(send_reminder)
     while True:
         schedule.run_pending()
         time.sleep(30)
